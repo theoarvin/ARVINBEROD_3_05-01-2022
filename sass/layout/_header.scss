@@ -15,16 +15,19 @@
     width: 100%;
     @include center;
     color: rgba(3, 3, 3, 0.8);
-    position: relative;
+    h3 {
+      width: 160px;
+      text-align: center;
+    }
+
     i {
-      position: absolute;
-      left: 118px;
+      padding-right: 5px;
     }
   }
   &__reservation {
     background-color: rgb(240, 240, 240);
     width: 100%;
-    height: 500px;
+    height: 230px;
     padding-top: 35px;
     h2 {
       width: 260px;
@@ -38,6 +41,10 @@
       margin: 10px auto;
       color: rgba(0, 0, 0, 0.6);
       width: 90%;
+    }
+    &--btn {
+      margin: 25px auto;
+      @include center;
     }
   }
 }
