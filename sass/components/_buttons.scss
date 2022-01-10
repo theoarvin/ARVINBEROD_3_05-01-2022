@@ -18,6 +18,8 @@
   min-width: 265px;
   max-width: 315px;
   font-weight: bold;
+  @include center;
+
   &--bulle {
     width: 23px;
     height: 23px;
@@ -35,5 +37,10 @@
     padding-right: 20px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.6);
+  }
+  &--text {
+    display: block;
+    text-align: left;
+    width: 180px;
   }
 }

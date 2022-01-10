@@ -31,6 +31,9 @@ body {
   min-width: 265px;
   max-width: 315px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .fonctionnement__button--bulle {
   width: 23px;
@@ -51,6 +54,11 @@ body {
   padding-right: 20px;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
+}
+.fonctionnement__button--text {
+  display: block;
+  text-align: left;
+  width: 180px;
 }
 
 /* header acceuil */
