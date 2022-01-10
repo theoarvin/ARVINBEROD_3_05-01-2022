@@ -52,13 +52,17 @@ body {
 }
 .fonctionnement__button--logo {
   padding-right: 20px;
-  font-size: 20px;
+  font-size: 17px;
   color: rgba(0, 0, 0, 0.6);
 }
 .fonctionnement__button--text {
   display: block;
   text-align: left;
   width: 180px;
+}
+
+.fonctionnement__button--logo-mobile {
+  font-size: 22px;
 }
 
 /* header acceuil */

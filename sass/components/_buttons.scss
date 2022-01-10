@@ -35,7 +35,7 @@
   }
   &--logo {
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.6);
   }
   &--text {
@@ -43,4 +43,7 @@
     text-align: left;
     width: 180px;
   }
+}
+.fonctionnement__button--logo-mobile {
+  font-size: 22px;
 }
