@@ -3,15 +3,16 @@
   border-radius: 30px;
   width: 220px;
   border: none;
-  background: #ff79da;
-  background: linear-gradient(165deg, #ff79da 0%, #9356dc 80%);
+  background: $color-secondary;
+  background: linear-gradient(165deg, $color-secondary 0%, $color-primary 80%);
   color: #fff;
   box-shadow: 0px 5px 18px 6px #fff;
 }
+/* boutons fonctionnement */
 .fonctionnement__button {
   width: 75%;
   height: 70px;
-  background: rgb(240, 240, 240);
+  background: $color-background;
   border: none;
   border-radius: 20px;
   position: relative;
@@ -19,7 +20,8 @@
   max-width: 315px;
   font-weight: bold;
   @include center;
-
+  color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 5px 8px 2px rgb(224, 224, 224);
   &--bulle {
     width: 23px;
     height: 23px;
@@ -36,14 +38,19 @@
   &--logo {
     padding-right: 20px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.6);
   }
   &--text {
     display: block;
     text-align: left;
     width: 180px;
+    color: #000;
+  }
+  &:hover {
+    background: RGBA(147, 86, 220, 0.16);
+    color: $color-primary;
   }
 }
+/* taille logo mobile */
 .fonctionnement__button--logo-mobile {
   font-size: 22px;
 }

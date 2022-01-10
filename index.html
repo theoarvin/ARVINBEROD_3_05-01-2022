@@ -1,71 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="public/css/normalize.css" />
-    <link rel="stylesheet" href="public/css/style.css" />
-    <title>ohmyfood</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <h1>ohmyfood</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="public/css/normalize.css" />
+  <link rel="stylesheet" href="public/css/style.css" />
+  <title>ohmyfood</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>ohmyfood</h1>
+    </div>
+  </header>
+  <main>
+    <section class="home">
+      <div class="home__loc">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Paris,Belleville</h3>
       </div>
-    </header>
-    <main>
-      <section class="home">
-        <div class="home__loc">
-          <i class="fas fa-map-marker-alt"></i>
-          <h3>Paris,Belleville</h3>
-        </div>
 
-        <div class="home__reservation">
-          <h2>Réservez le menu qui vous convient</h2>
-          <p>
-            Découvrez des restaurants d'exeption,<br />séléctionnés par nos
-            soins.
-          </p>
-          <button class="home__reservation--btn" type="button">
-            Explorer nos restaurants
-          </button>
-        </div>
-      </section>
-      <section class="fonctionnement">
-        <h2>fonctionnement</h2>
-
-        <button class="fonctionnement__button" type="button">
-          <span class="fonctionnement__button--bulle">1</span>
-          <span
-            class="fonctionnement__button--logo fonctionnement__button--logo-mobile"
-            ><i class="fas fa-mobile-alt"></i></span
-          ><span class="fonctionnement__button--text"
-            >Choisissez un restaurant</span
-          >
+      <div class="home__reservation">
+        <h2>Réservez le menu qui vous convient</h2>
+        <p>
+          Découvrez des restaurants d'exeption,<br />séléctionnés par nos
+          soins.
+        </p>
+        <button class="home__reservation--btn" type="button">
+          Explorer nos restaurants
         </button>
+      </div>
+    </section>
+    <section class="fonctionnement">
+      <h2>fonctionnement</h2>
 
-        <button class="fonctionnement__button" type="button">
-          <span class="fonctionnement__button--bulle">2</span>
-          <span class="fonctionnement__button--logo"
-            ><i class="fas fa-list-ul"></i></span
-          ><span class="fonctionnement__button--text">Composez votre menu</span>
-        </button>
+      <button class="fonctionnement__button" type="button">
+        <span class="fonctionnement__button--bulle">1</span>
+        <i class="fas fa-mobile-alt fonctionnement__button--logo fonctionnement__button--logo-mobile"></i>
+        <span class="fonctionnement__button--text">Choisissez un restaurant</span>
+      </button>
 
-        <button class="fonctionnement__button" type="button">
-          <span class="fonctionnement__button--bulle">3</span>
-          <span class="fonctionnement__button--logo"
-            ><i class="fas fa-store"></i></span
-          ><span class="fonctionnement__button--text"
-            >Dégustez au restaurant</span
-          >
-        </button>
-      </section>
-      <section class="restaurant"></section>
-    </main>
-    <script
-      src="https://kit.fontawesome.com/742255a237.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <button class="fonctionnement__button" type="button">
+        <span class="fonctionnement__button--bulle">2</span>
+        <i class="fas fa-list-ul fonctionnement__button--logo"></i>
+        <span class="fonctionnement__button--text">Composez votre menu</span>
+      </button>
+
+      <button class="fonctionnement__button" type="button">
+        <span class="fonctionnement__button--bulle">3</span>
+        <i class="fas fa-store fonctionnement__button--logo"></i>
+        <span class="fonctionnement__button--text">Dégustez au restaurant</span>
+      </button>
+
+    </section>
+    <section class="restaurant"></section>
+  </main>
+  <script src="https://kit.fontawesome.com/742255a237.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
