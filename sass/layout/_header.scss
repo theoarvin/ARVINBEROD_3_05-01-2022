@@ -4,12 +4,9 @@
   flex-direction: column;
   @include center;
   width: 100%;
-
-  h1 {
-    height: 55px;
-    margin: 0;
-    font-family: "Shrikhand", cursif;
-    padding-top: 20px;
-    font-weight: bold;
+  height: 50px;
+  img {
+    width: 160px;
+    height: 30px;
   }
 }

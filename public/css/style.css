@@ -80,13 +80,11 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 50px;
 }
-.logo h1 {
-  height: 55px;
-  margin: 0;
-  font-family: "Shrikhand", cursif;
-  padding-top: 20px;
-  font-weight: bold;
+.logo img {
+  width: 160px;
+  height: 30px;
 }
 
 /*en tete */
@@ -144,8 +142,37 @@ body {
   margin-right: 110px;
   margin-bottom: 25px;
 }
+@media (min-width: 1020px) {
+  .fonctionnement h2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 .fonctionnement__button {
   margin-bottom: 20px;
+}
+@media (min-width: 1020px) {
+  .fonctionnement__groupe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+/* Restaurants */
+.restaurant {
+  width: 100%;
+  height: 1600px;
+  background: #f0f0f0;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.restaurant h2 {
+  margin-right: 110px;
+  margin-bottom: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
