@@ -163,16 +163,59 @@ body {
 /* Restaurants */
 .restaurant {
   width: 100%;
-  height: 1600px;
+  height: 1000px;
   background: #f0f0f0;
   margin-top: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
 }
 .restaurant h2 {
-  margin-right: 110px;
+  margin-right: 140px;
   margin-bottom: 25px;
+}
+
+.cards {
+  width: 90%;
+  height: 280px;
+  background: #fff;
+  border-radius: 15px;
+  max-width: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.cards img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+.cards__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 80%;
+  margin: 10px 50px 0px 0px;
+}
+.cards__description--text {
+  height: 60px;
+}
+.cards__description--text h3 {
+  margin: 10px auto 0px auto;
+}
+.cards__description--text p {
+  margin-top: 5px;
+}
+.cards__description--coeur {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
