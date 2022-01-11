@@ -269,6 +269,10 @@ footer {
   color: #fff;
   text-decoration: none;
 }
+footer h3 {
+  font-family: "Shrikhand", cursif;
+  font-weight: lighter;
+}
 footer .piedpage {
   display: flex;
   flex-direction: column;
@@ -282,11 +286,25 @@ footer .piedpage a {
 footer .piedpage__restaurant {
   margin-bottom: 10px;
 }
-@media (min-width: 530px) {
+@media (min-width: 722px) {
   footer {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  footer h3 {
+    margin-top: -1px;
+    margin-right: 20px;
+  }
+  footer .piedpage {
+    flex-direction: row;
+  }
+  footer .piedpage a {
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  footer .piedpage__restaurant {
+    margin-bottom: 0px;
   }
 }
 
