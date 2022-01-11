@@ -50,16 +50,19 @@
   h2 {
     margin-right: 110px;
     margin-bottom: 25px;
-    @media (min-width: 1020px) {
-      margin-left: 0;
-      margin-right: 0;
-    }
   }
   &__button {
     margin-bottom: 20px;
   }
-  &__groupe {
-    @media (min-width: 1020px) {
+
+  @media (min-width: 1020px) {
+    margin: auto;
+    max-width: 1348px;
+    h2 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &__groupe {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
