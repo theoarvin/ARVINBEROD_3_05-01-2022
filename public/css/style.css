@@ -345,6 +345,13 @@ footer .piedpage__restaurant {
   position: absolute;
   top: 275px;
 }
+@media (min-width: 980px) {
+  .menu {
+    width: 70%;
+    margin: auto;
+    left: 15%;
+  }
+}
 .menu__titre {
   display: flex;
   justify-content: space-between;
