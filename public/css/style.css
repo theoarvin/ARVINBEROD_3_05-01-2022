@@ -74,9 +74,25 @@ body {
 }
 
 /* coeur */
-#coeur {
-  font-size: 25px;
+.coeur {
   color: rgba(0, 0, 0, 0.6);
+  font-size: 25px;
+  padding: 2px;
+}
+
+.coeur2 {
+  padding: 2px;
+  font-size: 25px;
+  opacity: 0;
+}
+.coeur2:hover {
+  opacity: 1;
+  background-clip: text;
+  background: linear-gradient(165deg, #ff79da 0%, #9356dc 80%);
+  transform: scale(1.11);
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* header acceuil */
@@ -364,8 +380,9 @@ footer .piedpage__restaurant {
   font-family: "Shrikhand", cursif;
 }
 .menu__titre--coeur {
-  left: 280px;
-  top: 30px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

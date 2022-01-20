@@ -55,7 +55,26 @@
   font-size: 22px;
 }
 /* coeur */
-#coeur {
-  font-size: 25px;
+.coeur {
   color: rgba(0, 0, 0, 0.6);
+  font-size: 25px;
+  padding: 2px;
+}
+.coeur2 {
+  padding: 2px;
+  font-size: 25px;
+  opacity: 0;
+  &:hover {
+    opacity: 1;
+    background-clip: text;
+    background: linear-gradient(
+      165deg,
+      $color-secondary 0%,
+      $color-primary 80%
+    );
+    transform: scale(1.11);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }

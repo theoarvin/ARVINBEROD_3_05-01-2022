@@ -30,8 +30,9 @@
       font-family: "Shrikhand", cursif;
     }
     &--coeur {
-      left: 280px;
-      top: 30px;
+      position: absolute;
+      right: 40px;
+      top: 40px;
     }
   }
 }
