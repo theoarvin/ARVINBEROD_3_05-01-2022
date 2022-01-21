@@ -76,23 +76,17 @@ body {
 /* coeur */
 .coeur {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 25px;
-  padding: 2px;
 }
-
-.coeur2 {
-  padding: 2px;
-  font-size: 25px;
-  opacity: 0;
-}
-.coeur2:hover {
+.coeur:hover {
+  transform: scale(1.1);
+  transition: 6ms ease-in-out;
   opacity: 1;
   background-clip: text;
   background: linear-gradient(165deg, #ff79da 0%, #9356dc 80%);
-  transform: scale(1.11);
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 /* header acceuil */
@@ -289,7 +283,7 @@ body {
 .cards__description--coeur {
   position: absolute;
   right: 30px;
-  bottom: 30px;
+  bottom: 25px;
 }
 @media (min-width: 1020px) {
   .cards {
