@@ -76,6 +76,8 @@ body {
 /* coeur */
 .coeur {
   color: rgba(0, 0, 0, 0.6);
+  width: 50px;
+  heignt: 50px;
 }
 .coeur:hover {
   transform: scale(0.9);
@@ -282,7 +284,7 @@ body {
 }
 .cards__description--coeur {
   position: absolute;
-  right: 30px;
+  right: 10px;
   bottom: 25px;
 }
 @media (min-width: 1020px) {
