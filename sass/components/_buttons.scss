@@ -58,7 +58,7 @@
 .coeur {
   color: rgba(0, 0, 0, 0.6);
 
-  &:active {
+  &:hover {
     transform: scale(1.1);
     transition: 6ms ease-in-out;
     opacity: 1;
