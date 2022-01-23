@@ -92,11 +92,11 @@ body {
   padding: 10px;
 }
 .coeur:hover {
+  font-weight: bold;
   animation: coeur 2s ease-out;
-  background: linear-gradient(#9356dc, #ff79da);
+  background: linear-gradient(165deg, #ff79da 0%, #9356dc 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
 }
 
 /* header acceuil */

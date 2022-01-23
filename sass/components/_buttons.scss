@@ -61,10 +61,10 @@
   color: grey;
   padding: 10px;
   &:hover {
+    font-weight: bold;
     animation: coeur 2s ease-out;
-    background: linear-gradient($color-primary, $color-secondary);
+    background: $color-linear;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
   }
 }
