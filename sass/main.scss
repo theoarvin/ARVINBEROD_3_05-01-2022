@@ -1,6 +1,6 @@
 // Utils
 @import "./utils/variables";
-@import "./utils/functions";
+@import "./utils/animation";
 @import "./utils/mixins";
 @import "./utils/extensions";
 
@@ -15,9 +15,9 @@
 
 // Layout
 @import "./layout/header";
-@import "./layout/element";
 @import "./layout/footer";
 
 // Pages
 @import "./pages/restaurant.scss";
+@import "./pages/menu.scss";
 // Themes

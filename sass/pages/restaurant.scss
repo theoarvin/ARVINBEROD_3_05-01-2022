@@ -1,33 +1,175 @@
-.entete {
-  img {
-    object-fit: cover;
-    height: 280px;
+/*en tete */
+
+.home {
+  &__loc {
+    background-color: rgb(224, 224, 224);
     width: 100%;
+    @include center;
+    color: rgba(3, 3, 3, 0.8);
+    height: 50px;
+    &--search {
+      width: 140px;
+      text-align: center;
+      border: none;
+      height: 35px;
+      background: rgb(224, 224, 224);
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    i {
+      padding-right: 15px;
+      padding-bottom: 4px;
+    }
+  }
+  &__reservation {
+    background-color: $color-background;
+
+    width: 100%;
+    height: 230px;
+    padding-top: 35px;
+    h2 {
+      min-width: 260px;
+      margin: auto;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      padding: 15px;
+    }
+    p {
+      text-align: center;
+      margin: 10px auto;
+      color: rgba(0, 0, 0, 0.6);
+      width: 90%;
+    }
+    &--btn {
+      margin: 25px auto;
+      @include center;
+    }
   }
 }
-.menu {
-  width: 100%;
-  height: 1300px;
-  background: $color-background;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
-  position: absolute;
-  top: 275px;
-  @media (min-width: 980px) {
-    width: 70%;
-    margin: auto;
-    left: 15%;
+/* fonctionnement */
+
+.fonctionnement {
+  @include center;
+  margin-top: 20px;
+  flex-direction: column;
+  h2 {
+    margin-right: 110px;
+    margin-bottom: 25px;
+  }
+  &__button {
+    margin-bottom: 20px;
   }
 
-  &__titre {
+  @media (min-width: 1020px) {
+    margin: auto;
+    max-width: 1348px;
+    h2 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &__groupe {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+  }
+}
+/* Restaurants */
+.restaurant {
+  width: 100%;
+  height: 1350px;
+  background: $color-background;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    margin-right: 140px;
+    margin-bottom: 25px;
+  }
+  @media (min-width: 1020px) {
+    flex-wrap: wrap;
+    height: 750px;
+    position: relative;
+    padding-top: 60px;
+
+    align-content: center;
+
+    h2 {
+      position: absolute;
+      top: 40px;
+      width: 150px;
+      height: 50px;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+.cards {
+  width: 90%;
+  height: 280px;
+  background: #fff;
+  border-radius: 15px;
+  max-width: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0px 5px 8px 2px rgb(224, 224, 224);
+  &__vignette {
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    background: $color-tertiary;
+    color: #148568;
+    @include center;
+    border-radius: 3px;
+    font-weight: bold;
+    right: 15px;
+    top: 15px;
+  }
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  &__description {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    position: relative;
-    h2 {
-      font-size: 25px;
-      font-family: "Shrikhand", cursif;
+    height: 60px;
+    width: 80%;
+    margin: 10px 50px 0px 0px;
+
+    &--text {
+      height: 60px;
+
+      h3 {
+        margin: 10px auto 0px auto;
+      }
+      p {
+        margin-top: 5px;
+        color: rgba(0, 0, 0, 0.6);
+      }
     }
+
+    &--coeur {
+      position: absolute;
+      right: 10px;
+    }
+  }
+  @media (min-width: 1020px) {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }

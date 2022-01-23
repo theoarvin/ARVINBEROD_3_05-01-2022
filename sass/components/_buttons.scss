@@ -56,44 +56,15 @@
 }
 /* coeur */
 
-/* &:hover {
-    transition: 6ms ease-in-out;
-    opacity: 1;
-    background-clip: text;
-    background: linear-gradient(
-      165deg,
-      $color-secondary 0%,
-      $color-primary 80%
-    );
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-  }*/
-
-.far {
+.coeur {
   font-size: 25px;
   color: grey;
-
-  padding: 20px;
+  padding: 10px;
   &:hover {
     animation: coeur 2s ease-out;
     background: linear-gradient($color-primary, $color-secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-  }
-}
-
-@keyframes coeur {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opâcity: 0.5;
-  }
-
-  100% {
-    opacity: 1;
   }
 }

@@ -1,5 +1,16 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+@keyframes coeur {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opâcity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 *::after,
 *::before {
   margin: 0;
@@ -75,26 +86,12 @@ body {
 }
 
 /* coeur */
-/* &:hover {
-    transition: 6ms ease-in-out;
-    opacity: 1;
-    background-clip: text;
-    background: linear-gradient(
-      165deg,
-      $color-secondary 0%,
-      $color-primary 80%
-    );
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-  }*/
-.far {
+.coeur {
   font-size: 25px;
   color: grey;
-  padding: 20px;
+  padding: 10px;
 }
-.far:hover {
+.coeur:hover {
   animation: coeur 2s ease-out;
   background: linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
@@ -102,17 +99,6 @@ body {
   font-weight: bold;
 }
 
-@keyframes coeur {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opâcity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 /* header acceuil */
 .logo {
   width: 100%;
@@ -134,6 +120,53 @@ body {
 .lien__fleche--size {
   font-size: 20px;
   color: #333;
+}
+
+footer {
+  background: #333;
+  width: 100%;
+  height: 210px;
+  color: #fff;
+  text-decoration: none;
+}
+footer h3 {
+  font-family: "Shrikhand", cursif;
+  font-weight: lighter;
+}
+footer .piedpage {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+footer .piedpage a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+}
+footer .piedpage__restaurant {
+  margin-bottom: 10px;
+}
+@media (min-width: 722px) {
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer h3 {
+    margin-top: -1px;
+    margin-right: 20px;
+  }
+  footer .piedpage {
+    flex-direction: row;
+  }
+  footer .piedpage a {
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  footer .piedpage__restaurant {
+    margin-bottom: 0px;
+  }
 }
 
 /*en tete */
@@ -313,53 +346,6 @@ body {
     margin-top: 50px;
     margin-left: 25px;
     margin-right: 25px;
-  }
-}
-
-footer {
-  background: #333;
-  width: 100%;
-  height: 210px;
-  color: #fff;
-  text-decoration: none;
-}
-footer h3 {
-  font-family: "Shrikhand", cursif;
-  font-weight: lighter;
-}
-footer .piedpage {
-  display: flex;
-  flex-direction: column;
-  padding-left: 15px;
-  padding-top: 20px;
-}
-footer .piedpage a {
-  text-decoration: none;
-  color: #fff;
-  margin-top: 10px;
-}
-footer .piedpage__restaurant {
-  margin-bottom: 10px;
-}
-@media (min-width: 722px) {
-  footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  footer h3 {
-    margin-top: -1px;
-    margin-right: 20px;
-  }
-  footer .piedpage {
-    flex-direction: row;
-  }
-  footer .piedpage a {
-    margin-right: 20px;
-    margin-top: 0px;
-  }
-  footer .piedpage__restaurant {
-    margin-bottom: 0px;
   }
 }
 
