@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 *::after,
 *::before {
@@ -74,23 +75,44 @@ body {
 }
 
 /* coeur */
-.coeur {
-  color: rgba(0, 0, 0, 0.6);
-  width: 50px;
-  heignt: 50px;
+/* &:hover {
+    transition: 6ms ease-in-out;
+    opacity: 1;
+    background-clip: text;
+    background: linear-gradient(
+      165deg,
+      $color-secondary 0%,
+      $color-primary 80%
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }*/
+.far {
+  font-size: 25px;
+  color: grey;
+  padding: 20px;
 }
-.coeur:hover {
-  transform: scale(0.9);
-  transition: 6ms ease-in-out;
-  opacity: 1;
-  background-clip: text;
-  background: linear-gradient(165deg, #ff79da 0%, #9356dc 80%);
-  color: transparent;
+.far:hover {
+  animation: coeur 2s ease-out;
+  background: linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
 
+@keyframes coeur {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opâcity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* header acceuil */
 .logo {
   width: 100%;
@@ -285,7 +307,6 @@ body {
 .cards__description--coeur {
   position: absolute;
   right: 10px;
-  bottom: 25px;
 }
 @media (min-width: 1020px) {
   .cards {
@@ -374,11 +395,6 @@ footer .piedpage__restaurant {
 .menu__titre h2 {
   font-size: 25px;
   font-family: "Shrikhand", cursif;
-}
-.menu__titre--coeur {
-  position: absolute;
-  right: 40px;
-  top: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

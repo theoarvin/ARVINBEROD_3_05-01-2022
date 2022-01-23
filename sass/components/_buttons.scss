@@ -55,13 +55,8 @@
   font-size: 22px;
 }
 /* coeur */
-.coeur {
-  color: rgba(0, 0, 0, 0.6);
-  width: 50px;
-  heignt: 50px;
 
-  &:hover {
-    transform: scale(0.9);
+/* &:hover {
     transition: 6ms ease-in-out;
     opacity: 1;
     background-clip: text;
@@ -74,5 +69,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+  }*/
+
+.far {
+  font-size: 25px;
+  color: grey;
+
+  padding: 20px;
+  &:hover {
+    animation: coeur 2s ease-out;
+    background: linear-gradient($color-primary, $color-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+}
+
+@keyframes coeur {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opâcity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
