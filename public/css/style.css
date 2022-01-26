@@ -520,13 +520,62 @@ ul {
   }
 }
 @keyframes rotate {
-  0% {
-    transform: rotate(0deg);
+  25% {
+    transform: rotate(60deg);
   }
   100% {
     transform: rotate(360deg);
   }
 }
+@keyframes apparition {
+  0% {
+    opacity: 0;
+    translatey: -1;
+  }
+  90% {
+    opacity: 1;
+    translatey: -1;
+  }
+  100% {
+    translatey: 0;
+  }
+}
+.items1 {
+  animation: apparition 1s;
+}
+
+.items2 {
+  animation: apparition 2s;
+}
+
+.items3 {
+  animation: apparition 3s;
+}
+
+.items4 {
+  animation: apparition 1s;
+}
+
+.items5 {
+  animation: apparition 2s;
+}
+
+.items6 {
+  animation: apparition 3s;
+}
+
+.items7 {
+  animation: apparition 1s;
+}
+
+.items8 {
+  animation: apparition 2s;
+}
+
+.items9 {
+  animation: apparition 3s;
+}
+
 .loader {
   position: fixed;
   z-index: 999;
