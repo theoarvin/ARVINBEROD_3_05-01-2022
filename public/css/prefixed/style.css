@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   background: linear-gradient(165deg, #ff79da 0%, #9356dc 80%);
   color: #fff;
   -webkit-box-shadow: 0px 5px 18px 6px #fff;
-          box-shadow: 0px 5px 18px 6px #fff;
+  box-shadow: 0px 5px 18px 6px #fff;
 }
 
 /* boutons fonctionnement */
@@ -40,14 +40,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0px 5px 8px 2px #e0e0e0;
-          box-shadow: 0px 5px 8px 2px #e0e0e0;
+  box-shadow: 0px 5px 8px 2px #e0e0e0;
 }
 .fonctionnement__button--bulle {
   width: 23px;
@@ -61,11 +61,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 1px;
   left: -10px;
   top: 23px;
@@ -90,59 +90,6 @@ body {
   font-size: 22px;
 }
 
-/* coeur */
-/* &:hover {
-    transition: 6ms ease-in-out;
-    opacity: 1;
-    background-clip: text;
-    background: linear-gradient(
-      165deg,
-      $color-secondary 0%,
-      $color-primary 80%
-    );
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-  }*/
-.coeur {
-  font-size: 25px;
-  color: grey;
-}
-.coeur:hover {
-  -webkit-animation: fill 2s ease-out;
-          animation: fill 2s ease-out;
-  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
-  background: -o-linear-gradient(#9356dc, #ff79da);
-  background: linear-gradient(#9356dc, #ff79da);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-@-webkit-keyframes fill {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opâcity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fill {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opâcity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 /* header acceuil */
 .logo {
   width: 100%;
@@ -151,11 +98,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .logo img {
   width: 160px;
@@ -180,11 +127,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: rgba(3, 3, 3, 0.8);
   height: 50px;
 }
@@ -227,11 +174,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 /* fonctionnement */
@@ -240,16 +187,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .fonctionnement h2 {
   margin-right: 110px;
@@ -273,10 +220,10 @@ body {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     width: 100%;
   }
 }
@@ -291,12 +238,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .restaurant h2 {
   margin-right: 140px;
@@ -305,12 +252,12 @@ body {
 @media (min-width: 1020px) {
   .restaurant {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 750px;
     position: relative;
     padding-top: 60px;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
   }
   .restaurant h2 {
     position: absolute;
@@ -334,17 +281,17 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
   margin-top: 20px;
   text-decoration: none;
   color: #000;
   -webkit-box-shadow: 0px 5px 8px 2px #e0e0e0;
-          box-shadow: 0px 5px 8px 2px #e0e0e0;
+  box-shadow: 0px 5px 8px 2px #e0e0e0;
 }
 .cards__vignette {
   position: absolute;
@@ -356,11 +303,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-radius: 3px;
   font-weight: bold;
   right: 15px;
@@ -370,7 +317,7 @@ body {
   width: 100%;
   height: 200px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 .cards__description {
@@ -378,11 +325,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 60px;
   width: 80%;
   margin: 10px 50px 0px 0px;
@@ -427,8 +374,8 @@ footer .piedpage {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-left: 15px;
   padding-top: 20px;
 }
@@ -446,11 +393,11 @@ footer .piedpage__restaurant {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   footer h3 {
     margin-top: -1px;
@@ -459,8 +406,8 @@ footer .piedpage__restaurant {
   footer .piedpage {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   footer .piedpage a {
     margin-right: 20px;
@@ -473,7 +420,7 @@ footer .piedpage__restaurant {
 
 .entete img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 280px;
   width: 100%;
 }
@@ -499,11 +446,11 @@ footer .piedpage__restaurant {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 20px;
   position: relative;
 }

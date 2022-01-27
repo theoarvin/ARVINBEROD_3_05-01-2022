@@ -38,6 +38,8 @@ img {
     }
     @media (min-width: 1352px) {
       position: absolute;
+      top: 50px;
+      width: 17%;
     }
   }
 }
@@ -61,6 +63,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 190px;
   }
 }
 ul {
@@ -146,6 +149,9 @@ ul {
   left: 0px;
   right: 0px;
   margin: auto;
+  @media (min-width: 1352px) {
+    bottom: 80px;
+  }
 }
 @keyframes check {
   0% {
