@@ -4,14 +4,26 @@ img {
   width: 100%;
 }
 .main {
-  height: 1400px;
+  height: 1470px;
+  @media (min-width: 1352px) {
+    height: 1050px;
+  }
+}
+.main2 {
+  height: 1550px;
+  @media (min-width: 1352px) {
+    height: 1050px;
+  }
+}
+.main3 {
+  height: 1480px;
   @media (min-width: 1352px) {
     height: 1050px;
   }
 }
 .menu {
   width: 100%;
-  height: 1200px;
+  height: 1250px;
   background: $color-background;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
@@ -43,12 +55,31 @@ img {
     }
   }
 }
+.menu2 {
+  height: 1330px;
+  @media (min-width: 1352px) {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 850px;
+  }
+}
 // entrées
-
+.menu3 {
+  height: 1270px;
+  @media (min-width: 1352px) {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 850px;
+  }
+}
 .liste {
   width: 90%;
-  height: 300px;
+  height: auto;
   margin: auto;
+  padding-top: 20px;
+
   h3 {
     border-bottom: 3px solid $color-tertiary;
     padding-bottom: 5px;
@@ -91,9 +122,13 @@ ul {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
+
   &:hover > .items__check {
     animation: check 1s;
     width: 50px;
+    > i {
+      animation: rotate 1s;
+    }
   }
 
   &__text {
@@ -115,6 +150,7 @@ ul {
       text-overflow: ellipsis;
     }
   }
+
   &__price {
     width: 70px;
     height: 77%;
@@ -143,6 +179,9 @@ ul {
     }
   }
 }
+.itemsbig {
+  height: 80px;
+}
 .btnmenu {
   position: absolute;
   bottom: 50px;
@@ -170,17 +209,13 @@ ul {
     transform: rotate(360deg);
   }
 }
+
 @keyframes apparition {
   0% {
     opacity: 0;
-    translatey: -1;
-  }
-  90% {
-    opacity: 1;
-    translatey: -1;
   }
   100% {
-    translatey: 0;
+    opacity: 1;
   }
 }
 .items1 {
