@@ -386,12 +386,11 @@ footer .piedpage__restaurant {
 
 img {
   object-fit: cover;
-  height: 280px;
   width: 100%;
 }
 @media (min-width: 1352px) {
   img {
-    height: 380px;
+    height: 450px;
   }
 }
 
@@ -409,7 +408,7 @@ img {
 }
 @media (min-width: 1352px) {
   .main2 {
-    height: 1050px;
+    height: 1075px;
   }
 }
 
@@ -418,7 +417,7 @@ img {
 }
 @media (min-width: 1352px) {
   .main3 {
-    height: 1050px;
+    height: 1075px;
   }
 }
 
@@ -437,7 +436,11 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 850px;
+    height: 725px;
+    top: 375px;
+    width: 70%;
+    left: 0;
+    right: 0;
   }
 }
 .menu__titre {
@@ -467,7 +470,7 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 850px;
+    height: 750px;
   }
 }
 
@@ -479,7 +482,7 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 850px;
+    height: 750px;
   }
 }
 
