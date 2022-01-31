@@ -214,12 +214,15 @@ ul {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0;
+  }
   100% {
     opacity: 1;
   }
 }
 .items1 {
-  animation: apparition 1s;
+  animation: apparition 1s forwards;
 }
 .items2 {
   animation: apparition 2s;
@@ -244,4 +247,7 @@ ul {
 }
 .items9 {
   animation: apparition 3s;
+}
+.items10 {
+  animation: apparition 4s;
 }
