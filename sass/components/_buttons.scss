@@ -7,6 +7,11 @@
   background: linear-gradient(165deg, $color-secondary 0%, $color-primary 80%);
   color: #fff;
   box-shadow: 0px 5px 18px 6px #fff;
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 5px 8px 2px rgb(224, 224, 224);
+    cursor: pointer;
+  }
 }
 /* boutons fonctionnement */
 .fonctionnement__button {
@@ -65,6 +70,7 @@
     font-weight: bold;
     animation: coeur 2s ease-out;
     background: $color-linear;
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

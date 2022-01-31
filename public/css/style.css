@@ -1,11 +1,37 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 @keyframes coeur {
   0% {
     opacity: 0;
   }
   50% {
-    opâcity: 0.5;
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes check {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50px;
+  }
+}
+@keyframes rotate {
+  25% {
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -32,6 +58,11 @@ body {
   background: linear-gradient(165deg, #ff79da 0%, #9356dc 80%);
   color: #fff;
   box-shadow: 0px 5px 18px 6px #fff;
+}
+.btn:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 5px 8px 2px #e0e0e0;
+  cursor: pointer;
 }
 
 /* boutons fonctionnement */
@@ -300,6 +331,9 @@ footer .piedpage__restaurant {
   color: #000;
   box-shadow: 0px 5px 8px 2px #e0e0e0;
 }
+.cards:hover {
+  transform: scale(1.01);
+}
 .cards__vignette {
   position: absolute;
   width: 90px;
@@ -354,6 +388,11 @@ img {
   object-fit: cover;
   height: 280px;
   width: 100%;
+}
+@media (min-width: 1352px) {
+  img {
+    height: 380px;
+  }
 }
 
 .main {
@@ -547,9 +586,10 @@ ul {
   border-radius: 50%;
   margin-top: 20px;
   margin-left: 6px;
-  padding-top: 5px;
-  padding-left: 6px;
+  padding-top: 8px;
+  padding-left: 8px;
   color: #99e2d0;
+  font-size: 14px;
 }
 
 .itemsbig {
@@ -569,33 +609,6 @@ ul {
   }
 }
 
-@keyframes check {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50px;
-  }
-}
-@keyframes rotate {
-  25% {
-    transform: rotate(60deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes apparition {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .items1 {
   animation: apparition 1s forwards;
 }

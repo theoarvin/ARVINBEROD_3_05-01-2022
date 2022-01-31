@@ -3,9 +3,39 @@
     opacity: 0;
   }
   50% {
-    opâcity: 0.5;
+    opacity: 0.5;
   }
 
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes check {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 50px;
+  }
+}
+@keyframes rotate {
+  25% {
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
   100% {
     opacity: 1;
   }
