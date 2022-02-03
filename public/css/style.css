@@ -12,10 +12,10 @@
 }
 @keyframes check {
   0% {
-    width: 0px;
+    margin-right: -60px;
   }
   100% {
-    width: 50px;
+    margin-right: 0px;
   }
 }
 @keyframes rotate {
@@ -439,7 +439,6 @@ img {
     margin: auto;
     height: 650px;
     top: 450px;
-    width: 70%;
     left: 0;
     right: 0;
   }
@@ -544,8 +543,7 @@ ul {
   position: relative;
 }
 .items:hover > .items__check {
-  animation: check 1s;
-  width: 50px;
+  animation: check 1s forwards;
 }
 .items:hover > .items__check > i {
   animation: rotate 1s;
@@ -577,19 +575,22 @@ ul {
   font-weight: bold;
 }
 .items__check {
-  width: 0px;
+  width: 50px;
   height: 100%;
   background: #99e2d0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -60px;
 }
 .items__check--logo {
   width: 23px;
   height: 23px;
   background: #fff;
   border-radius: 50%;
-  margin-top: 20px;
-  margin-left: 6px;
+  position: absolute;
   padding-top: 8px;
   padding-left: 8px;
   color: #99e2d0;

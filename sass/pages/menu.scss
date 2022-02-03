@@ -39,7 +39,6 @@ img {
     margin: auto;
     height: 650px;
     top: 450px;
-    width: 70%;
     left: 0;
     right: 0;
   }
@@ -131,8 +130,8 @@ ul {
   position: relative;
 
   &:hover > .items__check {
-    animation: check 1s;
-    width: 50px;
+    animation: check 1s forwards;
+
     > i {
       animation: rotate 1s;
     }
@@ -167,19 +166,19 @@ ul {
     font-weight: bold;
   }
   &__check {
-    width: 0px;
+    width: 50px;
     height: 100%;
     background: $color-tertiary;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-
+    @include center;
+    margin-right: -60px;
     &--logo {
       width: 23px;
       height: 23px;
       background: #fff;
       border-radius: 50%;
-      margin-top: 20px;
-      margin-left: 6px;
+      position: absolute;
       padding-top: 8px;
       padding-left: 8px;
       color: $color-tertiary;

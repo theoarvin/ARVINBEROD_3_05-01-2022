@@ -13,11 +13,11 @@
 
 @keyframes check {
   0% {
-    width: 0px;
+    margin-right: -60px;
   }
 
   100% {
-    width: 50px;
+    margin-right: 0px;
   }
 }
 @keyframes rotate {
