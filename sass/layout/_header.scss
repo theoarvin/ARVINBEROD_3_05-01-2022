@@ -4,6 +4,7 @@
   width: 100%;
   height: 50px;
   @include center;
+
   img {
     width: 190px;
     height: 32px;
@@ -15,6 +16,7 @@
 .lien {
   position: absolute;
   left: 30px;
+
   &__fleche--size {
     font-size: 20px;
     color: #333;

@@ -1,6 +1,6 @@
 img {
   object-fit: cover;
-
+  height: 300px;
   width: 100%;
   @media (min-width: 1352px) {
     height: 450px;
@@ -33,13 +33,12 @@ img {
   position: absolute;
   top: 275px;
   margin: auto;
-
   @media (min-width: 1352px) {
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 725px;
-    top: 375px;
+    height: 650px;
+    top: 450px;
     width: 70%;
     left: 0;
     right: 0;
@@ -55,9 +54,10 @@ img {
       font-size: 25px;
       font-family: "Shrikhand", cursif;
     }
+
     @media (min-width: 1352px) {
       position: absolute;
-      top: 50px;
+      top: 20px;
       width: 17%;
     }
   }
@@ -68,7 +68,7 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 750px;
+    height: 675px;
   }
 }
 // entrées
@@ -78,7 +78,7 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 750px;
+    height: 675px;
   }
 }
 .liste {
@@ -101,7 +101,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 190px;
+    margin-top: 130px;
   }
 }
 ul {
@@ -197,7 +197,7 @@ ul {
   right: 0px;
   margin: auto;
   @media (min-width: 1352px) {
-    bottom: 80px;
+    bottom: 50px;
   }
 }
 
